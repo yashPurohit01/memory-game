@@ -1,0 +1,113 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.card{
+    margin: .5rem;
+    border-radius: .5rem;
+    position: relative;
+}
+
+
+.card .front {
+    background-color: azure;
+
+
+}
+
+
+.back , .front{
+    width: 8rem;
+    height: 10rem;
+    border-radius: .5rem;
+    border: 2px solid rgba(255, 171, 16, 0.926);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 1s ease-in;
+
+
+}
+
+
+.cardview .front{
+    transform: rotateY(90deg);
+    position: absolute;
+    transition: all ease-in 0.2s;
+}
+.cardview.flipped .front{
+    transform: rotateY(0deg);
+    transition-delay: 0.2s;
+}
+
+.card .back{
+    transition: all ease-in 0.2s;
+    transition-delay: 0.2s;
+}
+.cardview.flipped .back{
+    transform: rotateY(90deg);
+    transition-delay: 0s;
+}
+
+
+/* 
+
+.card{
+    margin: .5rem;
+    border-radius: .5rem;
+    position: relative;
+}
+
+
+.card .front {
+    background-color: azure;
+
+
+}
+
+
+.back , .front{
+    width: 8rem;
+    height: 10rem;
+    border-radius: .5rem;
+    border: 2px solid rgba(255, 171, 16, 0.926);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+
+}
+
+
+
+.card > div {
+    position: relative;
+}
+
+.card :is(.front , .back) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: 1s all linear;
+}
+
+.cardview .back {
+    display: flex;
+    transform: rotateY(0deg);    
+}
+
+.cardview .front {
+    display: none;
+}
+
+.cardview.flipped .front {
+    display: flex;
+}
+
+.cardview.flipped .back {
+    display: none;
+    transform: rotateY(90deg); 
+}
+ */
