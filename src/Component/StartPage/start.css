@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Beastly&display=swap');
+
+.startScreen{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+.startScreen .info_section{
+    color: whitesmoke;
+    margin: 1rem;
+}
+
+.startScreen .info_section span{
+    font-family: 'Rubik Beastly', cursive;
+    letter-spacing: 1mm;
+    font-size: 2rem;
+    line-height: 1cm;
+    
+}
