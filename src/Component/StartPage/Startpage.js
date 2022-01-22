@@ -13,10 +13,12 @@ export const Startpage = ({ CardShuffle }) => {
                 <span>Card Molotov</span>
 
             </div>
-            <p>Score minimum </p>
+            <p>Score minimum  and Match the following Pairs</p>
             <button onClick={CardShuffle}>Start Game</button>
 
-
+             <div>
+                 
+             </div>
 
 
 
