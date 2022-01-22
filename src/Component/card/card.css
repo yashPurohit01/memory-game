@@ -11,9 +11,6 @@
 }
 
 
-.card .back img{
-  overflow: hidden;
-}
 
 
 
@@ -22,16 +19,21 @@
 
 
 }
+.back img{
+    width: 7rem;
+    height: 10rem;
+}
 
 .back{
-    border-radius: 1rem;
-    width: 9rem;
+    border-radius: 0.5rem;
+    width: 7rem;
+    height: 10rem;
 }
 
 
 /* .back  *//* ,  */.front{
-    width: 9rem;
-    height: 12.8rem;
+    width: 7rem;
+    height: 10rem;
     border-radius: .5rem;
    /*  border: 2px solid rgba(255, 171, 16, 0.926); */
     display: flex;

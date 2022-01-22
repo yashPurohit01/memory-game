@@ -14,7 +14,7 @@ function Card({card , SelectionHandler ,flipped}) {
                 </div>
              
                 <div className="back" onClick={handleSelection}>
-                   <img src="/images/cardBack3.jpg" width="140" height="200" alt="cardback" /> 
+                   <img src="/images/cardBack3.jpg" width="115" height="180" alt="cardback" /> 
                     
                </div>
         </div>
