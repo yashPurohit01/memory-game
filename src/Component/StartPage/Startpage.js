@@ -8,17 +8,17 @@ export const Startpage = ({ CardShuffle }) => {
                 <img src="owner.jpg" alt='ownerImage' />
             </div>
 
-            <div className='info_section'>
-                <img src="logo192.png" alt="gameLogo" />
-                <span>Card Molotov</span>
 
+            <div className="mainSection">
+
+                <div className='info_section'>
+                    <img src="logo192.png" alt="gameLogo" />
+                    <span>Card Molotov</span>
+
+                </div>
+                <p>Score minimum  and Match the following Pairs</p>
+                <button onClick={CardShuffle}>Start Game</button>
             </div>
-            <p>Score minimum  and Match the following Pairs</p>
-            <button onClick={CardShuffle}>Start Game</button>
-
-             <div>
-                 
-             </div>
 
 
 
