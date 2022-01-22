@@ -1,4 +1,4 @@
-import { Logo } from '../AppPreview/logo';
+
 import './card.css'
 
 function Card({card , SelectionHandler ,flipped}) {
