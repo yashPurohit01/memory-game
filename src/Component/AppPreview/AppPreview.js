@@ -86,7 +86,7 @@ function AppPreview() {
 
                 })
                 resetSelection();
-                console.log(Cards)
+            
 
 
             }
@@ -95,13 +95,25 @@ function AppPreview() {
             }
         }
     }, [firstSelect, SecondSelect]);
-    console.log(Cards);
+ 
 
     const resetSelection = () => {
         setfirstSelect(null);
         setSecondSelect(null);
 
     }
+
+    const ViewCards =  Cards.map(card => {
+        return (
+            <div key={card.id}>
+                <Card
+                    card={card}
+                    SelectionHandler={SelectionHandler}
+                    flipped={card.matched || card === firstSelect || card === SecondSelect}
+                />
+            </div>
+        )
+    })
     return (
         <div className={styles.previewSection}>
             <div className={styles.appheader} >
@@ -113,17 +125,8 @@ function AppPreview() {
           
             <div className={styles.cardPreviewSection}>
                 {
-                    Cards.map(card => {
-                        return (
-                            <div key={card.id}>
-                                <Card
-                                    card={card}
-                                    SelectionHandler={SelectionHandler}
-                                    flipped={card.matched || card === firstSelect || card === SecondSelect}
-                                />
-                            </div>
-                        )
-                    })
+                   
+                   ViewCards
 
                 }
             </div>

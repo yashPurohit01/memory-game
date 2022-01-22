@@ -11,22 +11,34 @@
 }
 
 
+.card .back img{
+  overflow: hidden;
+}
+
+
+
 .card .front {
-    background-color: azure;
+    background-color: rgb(223, 236, 250);
 
 
 }
 
+.back{
+    border-radius: 1rem;
+    width: 9rem;
+}
 
-.back , .front{
-    width: 8rem;
-    height: 10rem;
+
+/* .back  *//* ,  */.front{
+    width: 9rem;
+    height: 12.8rem;
     border-radius: .5rem;
-    border: 2px solid rgba(255, 171, 16, 0.926);
+   /*  border: 2px solid rgba(255, 171, 16, 0.926); */
     display: flex;
     align-items: center;
     justify-content: center;
     transition: 1s ease-in;
+    
 
 
 }
@@ -43,6 +55,7 @@
 }
 
 .card .back{
+    overflow: hidden;
     transition: all ease-in 0.2s;
     transition-delay: 0.2s;
 }

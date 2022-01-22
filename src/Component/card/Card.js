@@ -1,3 +1,4 @@
+import { Logo } from '../AppPreview/logo';
 import './card.css'
 
 function Card({card , SelectionHandler ,flipped}) {
@@ -13,7 +14,8 @@ function Card({card , SelectionHandler ,flipped}) {
                 </div>
              
                 <div className="back" onClick={handleSelection}>
-                    <img src="/images/logo1.png" alt="cardback" />
+                   <img src="/images/cardBack3.jpg" width="140" height="200" alt="cardback" /> 
+                    
                </div>
         </div>
         </div>
