@@ -75,5 +75,6 @@
  @media screen  and (max-width :450px)  {
      .cardPreviewSection{
          padding: 0;
+         padding-top: .3rem;
      }
  }

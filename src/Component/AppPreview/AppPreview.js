@@ -88,8 +88,12 @@ function AppPreview() {
               <div className={styles.previewSection}>
 
               <div className={styles.appheader} >
+               
                   <button onClick={CardShuffle}>NewGame</button>
-                  <div style={{ color: "white" }}>
+                  <img src="logo192.png" />
+                  
+                  <div style={{ color: "white" ,display:'flex' , alignItems:"center" }}>
+                     
                       <span><strong>Score:</strong>{steps}</span>
                   </div>
               </div>
