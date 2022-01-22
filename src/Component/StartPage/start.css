@@ -21,3 +21,21 @@
     line-height: 1cm;
     
 }
+.startScreen p{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    font-size: .8rem ;
+    color:rgba(255, 228, 196, 0.542);
+    margin: 1rem;
+    letter-spacing: 0.3mm;
+}
+.startScreen .socialMedia{
+    margin-top: 8rem;
+}
+.socialMedia a{
+    font-size: 1.2rem;
+    color: rgba(233, 233, 233, 0.364);
+    margin: .8rem;
+}
+.socialMedia p {
+    color: rgba(240, 248, 255, 0.59);
+}
