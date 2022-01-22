@@ -19,6 +19,10 @@
 
 
 }
+.card .front img{
+    width: 6rem;
+    height: 6rem;
+}
 .back img{
     width: 7rem;
     height: 10rem;

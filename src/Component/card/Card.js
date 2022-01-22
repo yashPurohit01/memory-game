@@ -10,7 +10,7 @@ function Card({card , SelectionHandler ,flipped}) {
             <div className={`cardview ${ flipped ? "flipped" :""}`}>
         
                 <div className="front">
-                    <img src={card.src} alt={card.lang} />
+                    <img src={card.src} width="100" height="100" alt={card.lang} />
                 </div>
              
                 <div className="back" onClick={handleSelection}>
